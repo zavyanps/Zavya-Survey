@@ -118,7 +118,7 @@ h1 {
         overflow-x: auto; /* Allow horizontal scrolling if needed */
     }
     .container{
-        padding-top:50%;
+        padding-top:25%;
     }
     .scale-item {
         width: 30px; /* Reduce width for smaller screens */
