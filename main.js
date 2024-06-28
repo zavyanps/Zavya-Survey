@@ -17,7 +17,7 @@ scaleItems.forEach(item => {
         const value = parseInt(item.dataset.value);
         
         if (value <= 6) {
-            feedbackHeading.textContent = "We regret that. What went wrong and how can we improve?";
+            feedbackHeading.textContent = "Could you let us know what led to your dissatisfcation";
         } else if (value >= 7 && value <= 8) {
             feedbackHeading.textContent = "Thanks! How can we improve further?";
         } else {
